@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form method="POST" action="contato.php">
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="Nome" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" placeholder="Telefone" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" placeholder="E-mail" required>
+
+        <label for="mensagem">Mensagem (opcional)</label>
+        <textarea name="mensagem" placeholder="Mensagem"></textarea>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <a href="contato.php?requisicaoGet=true">Clique aqui para enviar a requisição GET</a>
+
+</body>
+</html>

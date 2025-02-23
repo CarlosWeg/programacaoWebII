@@ -1,0 +1,31 @@
+body{
+    display: flex;  
+    flex-direction: column;
+    background-color: rgb(221, 221, 221);
+    font-size: 2rem;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+form{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+input,textarea{
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+a{
+    margin: 0 auto;
+    text-decoration: underline;
+    color: rgb(75, 74, 74);
+}
